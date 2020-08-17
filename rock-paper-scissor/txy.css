@@ -1,0 +1,36 @@
+.container-1, .container-3, .container-2{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    padding: 40px;
+   
+}
+.flex-box-container,.flexbox-container-3{
+    display: flex ;
+    border: 1px solid black;
+    padding: 12px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.flex-box-container div{
+    border: 1px solid black;
+    padding: 15px;
+    display: flex;
+}
+
+.flexbox-container-2{
+    background-color: chartreuse;
+    border: 1px solid black;
+    padding:10px ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.flexbox-container-2 img{
+    padding: 30px;
+    background-color: aqua;
+    height: 250px;
+    width: 250px;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="txy.css">
+    <script src="txy.js"></script>
+</head>
+<body>
+
+  <div class="container-1">  
+  <h2>challenge 1: your age in days</h2>
+      <div class="flex-box-container">
+        <div> <button class="btn btn-primary" onclick="bashYear()">click here!</button></div><!--the oncliick runs the bashYear function on the javascript file-->
+        <div> <button class="btn btn-danger"onclick="reset()">reset</button></div><!--the onclick function reset runs the javascript function called reset-->
+      </div>
+   
+    <div class="flex-box-container"><!--the flex  box is to alloww positioning items in different stylings-->
+      <div id="flex-box-result" style="background-color: antiquewhite;"></div>
+    </div>
+  </div>
+  <div class="container-2">
+    <h2>challenge 2: cat generator</h2>
+   
+      <button class="btn btn-success" onclick="generateCat()">Generate Cat</button>
+      
+  
+   <div class="flexbox-container-2" id="flexCat">
+  
+    
+  </div>
+  </div>
+  <div class="container-3">
+    <h1>rock,paper and scissor game</h1>
+  <div class="flexbox-container-3">
+    <div><img src="rock.jpg" alt="rock" onclick="rpsGame(this)"></div>
+    <div><img src="page.jpg" alt="paper" onclick="rpsGame(this)"></div>
+    <div><img src="sciccors.jpg" alt="scissor"></div>
+  </div>
+  </div> 
+</body>
+</html>
